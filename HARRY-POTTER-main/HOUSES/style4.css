@@ -1,0 +1,156 @@
+body {
+	background-image: url("bg.jpg");
+	background-position: 0px 70px;
+	background-repeat: no-repeat;
+	background-size: 1400px 650px;
+	overflow: hidden hidden;
+}
+.box1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border: 1px solid transparent;
+	height: 70px;
+	background-color: #0C3050;
+	width: 100%;
+}
+ul {
+	position: absolute;
+	top: 2.99%;
+	right: 0%;
+	list-style-type: none;
+}
+ul li {
+	border: 1px solid transparent;
+	padding: 6px 50px;
+	float: left;
+}
+ul li:hover {
+	background-color: #00425E;
+	border: 1px double #0C3050;
+	color: white;
+}
+ul li a{
+	text-decoration: none;
+	font-family: Times New Roman;
+	font-size: 19px;
+	color: cyan;
+}
+li a .dropdown {
+  display: inline-block;
+}
+li .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #00425E;
+  transition: 0.5s;
+}
+.dropdown-content a {
+  color: white;
+  padding: 6px 47.9px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+	background-color: #0C3050;
+	color: white;
+}
+
+.dropdown:hover .dropdown-content {
+	position: absolute;
+	top: 35.6px;
+	left: 62.1%;
+	font-size: 19px;
+	display: block;
+}
+li a .down {
+  display: inline-block;
+}
+li .content {
+  display: none;
+  position: absolute;
+  background-color: #00425E;
+  transition: 0.5s;
+}
+.content a {
+  color: white;
+  padding: 6px 27.32px;
+  text-decoration: none;
+  display: block;
+}
+.content a:hover {
+	background-color: #0C3050;
+	color: white;
+}
+.down:hover .content {
+	position: absolute;
+	top: 35.6px;
+	left: 22.4%;
+	font-size: 19px;
+	display: block;
+}
+li a .drop {
+  display: inline-block;
+}
+li .drop-content {
+  display: none;
+  position: absolute;
+  background-color: #00425E;
+  transition: 0.5s;
+}
+.drop-content a {
+  color: white;
+  padding: 6px 47.9px;
+  text-decoration: none;
+  display: block;
+}
+.drop-content a:hover {
+	background-color: #0C3050;
+	color: white;
+}
+.drop:hover .drop-content {
+	position: absolute;
+	top: 35.6px;
+	left: 42.38%;
+	font-size: 19px;
+	display: block;
+}
+.margin {
+	position: fixed;
+	top: 17%;
+	left: 4%;
+	border: 3.5px solid black;
+	height: 800px;
+	width: 1250px;
+}
+.description {
+	position: absolute;
+	top: 17%;
+	right: 7.5%;
+	height: 500px;
+	width: 755px;
+	border: 1px solid transparent;
+}
+.description h1 {
+	font-size: 50px;
+	opacity: 95%;
+	color: green;
+	text-shadow: 1px 1px 1px chartreuse;
+}
+.description p {
+	font-size: 20px;
+	color: white;
+}
+.description p b {
+	color: green;
+	text-shadow: 1px 1px 1px chartreuse;
+}
+.house {
+	position: absolute;
+	top: 20%;
+	left: 7.5%;
+}
+.house img {
+	height: 500px;
+	width: 380px;
+}
